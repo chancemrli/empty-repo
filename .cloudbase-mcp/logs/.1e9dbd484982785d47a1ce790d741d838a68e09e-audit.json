@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "/tmp/workspace/git-test2/.cloudbase-mcp/logs/.1e9dbd484982785d47a1ce790d741d838a68e09e-audit.json",
+    "files": [
+        {
+            "date": 1777257247793,
+            "name": "/tmp/workspace/git-test2/.cloudbase-mcp/logs/cloudbase-mcp-2026-04-27.log",
+            "hash": "b83cbbf814a06fc7c7ab126d0ec5e680c3ee4b8d9eb854ca45ce6f895b54775f"
+        }
+    ],
+    "hashType": "sha256"
+}
