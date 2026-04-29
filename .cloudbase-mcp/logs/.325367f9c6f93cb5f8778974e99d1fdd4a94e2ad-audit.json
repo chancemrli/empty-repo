@@ -9,6 +9,11 @@
             "date": 1777368134683,
             "name": "/tmp/workspace/c6d3eab3-fcca-4ee2-8e37-2f1cdf935d39/.cloudbase-mcp/logs/cloudbase-mcp-2026-04-28.log",
             "hash": "723e30bd8eecdfafab153d50fd39949507b830d739c77e3ef3fc759f6fc26d87"
+        },
+        {
+            "date": 1777429231684,
+            "name": "/tmp/workspace/c6d3eab3-fcca-4ee2-8e37-2f1cdf935d39/.cloudbase-mcp/logs/cloudbase-mcp-2026-04-29.log",
+            "hash": "fca0fe06a9a54c1b2a493f76af3266474335d0109b305c5e6b79d93de69e0afc"
         }
     ],
     "hashType": "sha256"
