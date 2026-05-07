@@ -107,11 +107,10 @@ If the current task has not retrieved a real Publishable Key, omit `accessKey` i
 
 **1. Phone OTP (Recommended)**
 - Automatically use `auth-tool-cloudbase` to turn on `SMS Login` through `manageAppAuth`
-- Send the phone number to `auth.signInWithOtp({ phone, ... })`, then call the returned `verifyOtp({ token })`.
-- `signInWithOtp` can automatically create a new user if the user does not exist; control this via `shouldCreateUser` parameter (default `true`).
+- For phone registration, send the phone number to `auth.signUp({ phone, ... })` first, then call the returned `verifyOtp({ token })`. Do not swap the order.
 ```js
-const { data, error } = await auth.signInWithOtp({ phone: '13800138000' })
-const { data: loginData, error: loginError } = await data.verifyOtp({ token: '123456' })
+const { data, error } = await auth.signUp({ phone: '13800138000' })
+const { data: loginData, error: loginError } = await data.verifyOtp({ token:'123456' })
 ```
 
 **2. Email OTP**

@@ -2,11 +2,11 @@
   "mode": "server",
   "name": "cloudbase",
   "status": "ok",
-  "durationMs": 764,
+  "durationMs": 711,
   "transport": "STDIO node /app/node_modules/@cloudbase/cloudbase-mcp/dist/cli.cjs",
   "source": {
     "kind": "local",
-    "path": "/tmp/workspace/0977ee53-b876-4938-aef5-cf2a95babea7/.mcporter/mcporter.json"
+    "path": "/tmp/workspace/c6d3eab3-fcca-4ee2-8e37-2f1cdf935d39/.mcporter/mcporter.json"
   },
   "tools": [
     {
