@@ -1,0 +1,59 @@
+[2026-04-28T09:22:14.693+00:00] [DEBUG] [cache] Using default TTL {
+  "ttlMs": 86400000
+}
+[2026-04-28T09:22:14.731+00:00] [DEBUG] report_init {
+  "enabled": true,
+  "deviceId": "af7cc2a1...",
+  "ide": "none"
+}
+[2026-04-28T09:22:14.762+00:00] [DEBUG] [cache] failed to read cache meta, treating as miss {
+  "error": {
+    "errno": -2,
+    "code": "ENOENT",
+    "syscall": "open",
+    "path": "/tmp/workspace/c6d3eab3-fcca-4ee2-8e37-2f1cdf935d39/.cloudbase-mcp/cache-meta.json"
+  }
+}
+[2026-04-28T09:22:14.762+00:00] [DEBUG] [downloadResources] 开始新下载任务
+[2026-04-28T09:22:14.764+00:00] [DEBUG] [downloadResources] 文件锁已获取
+[2026-04-28T09:22:14.764+00:00] [DEBUG] [cache] failed to read cache meta, treating as miss {
+  "error": {
+    "errno": -2,
+    "code": "ENOENT",
+    "syscall": "open",
+    "path": "/tmp/workspace/c6d3eab3-fcca-4ee2-8e37-2f1cdf935d39/.cloudbase-mcp/cache-meta.json"
+  }
+}
+[2026-04-28T09:22:15.068+00:00] [DEBUG] [downloadOpenAPI] openAPIDocs 下载完成 {
+  "successCount": 5,
+  "total": 5
+}
+[2026-04-28T09:22:15.654+00:00] [DEBUG] [downloadResources] webTemplate 下载完成
+[2026-04-28T09:22:15.654+00:00] [DEBUG] [downloadResources] 所有资源下载完成
+[2026-04-28T09:22:15.656+00:00] [DEBUG] [downloadResources] 缓存已更新
+[2026-04-28T09:22:15.656+00:00] [DEBUG] [downloadResources] 文件锁已释放
+[2026-04-28T09:22:15.668+00:00] [INFO] TencentCloudBase MCP Server running on stdio
+[2026-04-28T09:22:15.669+00:00] [DEBUG] [telemetry] 生命周期事件 envId 获取结果 {
+  "event": "start",
+  "envId": "jackvyli-1ghh537ac86d87af",
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID",
+  "hasCloudBaseOptions": false,
+  "cloudBaseOptionsEnvId": null
+}
+[2026-04-28T09:22:15.669+00:00] [DEBUG] [telemetry] 生命周期事件上报参数 {
+  "event": "start",
+  "eventData": {
+    "event": "start",
+    "envId": "jackvyli-1ghh537ac86d87af",
+    "nodeVersion": "v22.22.2",
+    "osType": "Linux",
+    "osRelease": "5.4.119-19-0009-03_2.0.1-00029-gee3a514c359c",
+    "arch": "x64",
+    "mcpVersion": "2.14.2"
+  },
+  "envIdSource": "process.env.CLOUDBASE_ENV_ID"
+}
+[2026-04-28T09:22:15.733+00:00] [DEBUG] report_success {
+  "eventCode": "toolkit_lifecycle",
+  "deviceId": "af7cc2a1..."
+}

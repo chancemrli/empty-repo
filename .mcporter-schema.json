@@ -2,11 +2,11 @@
   "mode": "server",
   "name": "cloudbase",
   "status": "ok",
-  "durationMs": 850,
+  "durationMs": 711,
   "transport": "STDIO node /app/node_modules/@cloudbase/cloudbase-mcp/dist/cli.cjs",
   "source": {
     "kind": "local",
-    "path": "/tmp/workspace/1c6ea6f3-edc8-48d7-9be6-b5d8756a40bc/.mcporter/mcporter.json"
+    "path": "/tmp/workspace/c6d3eab3-fcca-4ee2-8e37-2f1cdf935d39/.mcporter/mcporter.json"
   },
   "tools": [
     {
@@ -408,9 +408,8 @@
           "cliName": "update-options",
           "description": "更新选项(updateCollection 时使用)",
           "required": false,
-          "type": "object",
-          "placeholder": "<update-options:json>",
-          "exampleValue": "{\"key\":\"value\"}"
+          "type": "unknown",
+          "placeholder": "<update-options>"
         }
       ]
     },
@@ -646,7 +645,7 @@
           "description": "要插入的文档对象数组,每个文档都是对象(insert 操作必填)",
           "required": false,
           "type": "array",
-          "arrayItemType": "object",
+          "arrayItemType": "unknown",
           "placeholder": "<documents:value1,value2>",
           "exampleValue": "value1,value2"
         },
@@ -1169,9 +1168,8 @@
           "cliName": "func",
           "description": "函数配置",
           "required": true,
-          "type": "object",
-          "placeholder": "<func:json>",
-          "exampleValue": "{\"key\":\"value\"}"
+          "type": "unknown",
+          "placeholder": "<func>"
         },
         {
           "property": "functionRootPath",
@@ -1296,9 +1294,8 @@
           "cliName": "func-param",
           "description": "函数配置",
           "required": true,
-          "type": "object",
-          "placeholder": "<func-param:json>",
-          "exampleValue": "{\"key\":\"value\"}"
+          "type": "unknown",
+          "placeholder": "<func-param>"
         }
       ]
     },
@@ -1338,9 +1335,8 @@
           "cliName": "params",
           "description": "调用参数",
           "required": false,
-          "type": "object",
-          "placeholder": "<params:json>",
-          "exampleValue": "{\"key\":\"value\"}"
+          "type": "unknown",
+          "placeholder": "<params>"
         }
       ]
     },
@@ -1588,7 +1584,7 @@
           "description": "触发器配置数组（创建时必需）",
           "required": false,
           "type": "array",
-          "arrayItemType": "object",
+          "arrayItemType": "unknown",
           "placeholder": "<triggers:value1,value2>",
           "exampleValue": "value1,value2"
         },
@@ -1943,7 +1939,7 @@
           "description": "目标函数层数组。updateFunctionLayers 操作时必填，顺序即最终顺序",
           "required": false,
           "type": "array",
-          "arrayItemType": "object",
+          "arrayItemType": "unknown",
           "placeholder": "<layers:value1,value2>",
           "exampleValue": "value1,value2"
         },
@@ -2035,7 +2031,7 @@
           "description": "多文件上传配置",
           "required": false,
           "type": "array",
-          "arrayItemType": "object",
+          "arrayItemType": "unknown",
           "placeholder": "<files:value1,value2>",
           "exampleValue": "[]",
           "defaultValue": []
@@ -2350,9 +2346,8 @@
           "cliName": "domain-config",
           "description": "域名配置（修改配置时使用）",
           "required": false,
-          "type": "object",
-          "placeholder": "<domain-config:json>",
-          "exampleValue": "{\"key\":\"value\"}"
+          "type": "unknown",
+          "placeholder": "<domain-config>"
         }
       ]
     },
@@ -2970,9 +2965,8 @@
           "cliName": "options",
           "description": "mode=vector 时指定。其他选项",
           "required": false,
-          "type": "object",
-          "placeholder": "<options:json>",
-          "exampleValue": "{\"key\":\"value\"}"
+          "type": "unknown",
+          "placeholder": "<options>"
         },
         {
           "property": "limit",
@@ -3369,9 +3363,8 @@
           "cliName": "server-config",
           "description": "服务配置项，用于部署时设置服务的运行参数。包括资源规格、访问权限、环境变量等配置。不提供时使用默认配置",
           "required": false,
-          "type": "object",
-          "placeholder": "<server-config:json>",
-          "exampleValue": "{\"key\":\"value\"}"
+          "type": "unknown",
+          "placeholder": "<server-config>"
         },
         {
           "property": "template",
@@ -3388,18 +3381,16 @@
           "cliName": "run-options",
           "description": "本地运行参数配置，仅函数型云托管服务支持。用于配置本地开发环境的运行参数，不影响云端部署",
           "required": false,
-          "type": "object",
-          "placeholder": "<run-options:json>",
-          "exampleValue": "{\"key\":\"value\"}"
+          "type": "unknown",
+          "placeholder": "<run-options>"
         },
         {
           "property": "agentConfig",
           "cliName": "agent-config",
           "description": "Agent配置项，仅在createAgent操作时使用",
           "required": false,
-          "type": "object",
-          "placeholder": "<agent-config:json>",
-          "exampleValue": "{\"key\":\"value\"}"
+          "type": "unknown",
+          "placeholder": "<agent-config>"
         },
         {
           "property": "force",
@@ -3778,9 +3769,8 @@
           "cliName": "params",
           "description": "Action 对应的参数对象，键名需与官方 API 定义一致。某些 Action 需要携带 EnvId 等信息，如不清楚请在调用前查看rules/skill。",
           "required": false,
-          "type": "object",
-          "placeholder": "<params:json>",
-          "exampleValue": "{\"key\":\"value\"}"
+          "type": "unknown",
+          "placeholder": "<params>"
         }
       ]
     }
